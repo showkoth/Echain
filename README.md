@@ -38,7 +38,7 @@ cd echain
   
 4. Download node.js modules
 
-cd chaincodecurl -sSL https://bit.ly/2ysbOFE | bash -s
+cd chaincode
 
 npm install
 
@@ -81,6 +81,7 @@ open index.html with any browser
 .
 
 9. Interact with the network
+
 
 All done! Now go chill!
 
