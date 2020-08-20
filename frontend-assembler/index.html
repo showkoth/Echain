@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Assembler Frontend Application</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <h1>---------------Assembler Frontend Application---------------</h1>
+        <!-- <div id="unsoldDevicesDiv">Unsold Devices
+        </div>
+        <button id="viewUnsold" type="button">View Unsold Devices</button> -->
+
+        <div id="viewDeviceDiv">Trace Device
+            <form method="GET" id="viewDevice">
+                <input type="text" name="imei" id="vdimei" value="imei/id">
+                <button type="submit">Search</button>
+            </form>
+            <div id="viewproductdetails">
+            </div>
+        </div>
+        
+
+        <div>Assemble Device
+            <form method="POST" id="assembleDevice">
+                <input type="text" name="imei" id="imei" value="imei/id">
+                <input type="text" name="assembler" id="assembler" value="assembler info">
+                <button type="submit">Assemble Device</button>
+            </form>
+        </div>
+    </body>
+</html>

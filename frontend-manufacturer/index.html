@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Manufacturer Frontend Application</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <h1>---------------Manufacturer Frontend Application---------------</h1>
+        <!-- <div id="unsoldDevicesDiv">Unsold Devices
+        </div>
+        <button id="viewUnsold" type="button">View Unsold Devices</button> -->
+        <div id="viewDeviceDiv">View Device Info
+            <form method="GET" id="viewDevice">
+                <input type="text" name="imei" id="vpimei" value="imei/id">
+                <button type="submit">Search Device</button>
+            </form>
+            <div id="viewproductdetails">
+            </div>
+        </div>
+        <div>Release New Device
+            <form method="POST" id="releaseDevice">
+                <input type="text" name="imei" id="rpimei" value="imei/id">
+                <input type="text" name="manufacturer" id="rpmanufacturer" value="manufacturer">
+                <input type="text" name="name" id="rpname" value="name">
+                <input type="text" name="price" id="rpprice" value="price">
+                <input type="text" name="description" id="rpdescription" value="description">
+                <button type="submit">Release New Device</button>
+            </form>
+        </div>
+    </body>
+</html>
