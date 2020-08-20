@@ -69,6 +69,7 @@ node app.js
 .
 .
 .
+
 8. Run the front-end application
 
 cd fabric-samples/echain/frontend-manufacturer
